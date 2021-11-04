@@ -1,0 +1,15 @@
+{
+  "type": {
+    "HED": {
+      "standard": "Auditory-presentation, Sensory-event, Pitch/500Hz, Correct, Non-target, (Not-equal-to, Go-signal), Expected",
+      "oddball_with_reponse": "Auditory-presentation, Sensory-event, Pitch/1000Hz, Correct, Target, Oddball, Expected, Go-signal, Participant-response",
+      "condition 5": "Description/Computer Glitch",
+      "standard_with_reponse": "Auditory-presentation, Sensory-event, Pitch/500Hz, Wrong, Non-target, (Not-equal-to, Go-signal), Participant-response, Expected",
+      "noise_with_reponse": "Auditory-presentation, Sensory-event, Wrong, Non-target, Signal-noise, Unexpected, (Not-equal-to, Go-signal), Distractor, Participant-response",
+      "response": "Participant-response, (Keyboard-key, Press), Agent-action",
+      "noise": "Auditory-presentation, Sensory-event, Correct, Non-target, Signal-noise, Unexpected, (Not-equal-to, Go-signal), Distractor",
+      "ignore": "Description/Event Irrelevant for Experiment",
+      "oddball": "Auditory-presentation, Sensory-event, Pitch/1000Hz, Wrong, Target, Oddball, Expected, Go-signal"
+    }
+  }
+}
